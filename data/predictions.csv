@@ -1,0 +1,6 @@
+customer_id,product_id,category,purchase_amount,prediction
+1,101,Electronics,280,1
+2,12,Clothing,50,0
+3,103,Groceries,30,0
+4,104,Electronics,150,1
+5,104,Clothing,80,0
