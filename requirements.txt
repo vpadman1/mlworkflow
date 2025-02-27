@@ -1,4 +1,5 @@
 zenml
 pandas
 numpy
-scikit-learn 
+scikit-learn
+prefect
