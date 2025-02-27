@@ -1,0 +1,7 @@
+Table 1
+customer_id,product_id,category,purchase_amount
+1,101,Electronics,280
+2,12,Clothing,50
+3,103,Groceries,30
+4,104,Electronics,150
+5,104,Clothing,80
