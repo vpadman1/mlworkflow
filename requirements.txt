@@ -1,0 +1,5 @@
+zenml
+pandas
+numpy
+scikit-learn
+prefect

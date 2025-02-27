@@ -1,9 +1,10 @@
 from prefect import flow, task
 import subprocess
+from zenml import pipeline
 
 @task
-def train_model():
-    subprocess.run(["python", "src/train.py"])
+def run_zenml_pipeline():
+    subprocess.run(["python", "src/pipeline.py"])
 
 @task
 def run_predictions():
@@ -11,7 +12,7 @@ def run_predictions():
 
 @flow
 def ml_workflow():
-    train_model()
+    run_zenml_pipeline()
     run_predictions()
 
 if __name__ == "__main__":
